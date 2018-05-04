@@ -1,6 +1,13 @@
 # Bluetooth-LED-Costume
 Modification of Arduino's Bluefruit BLE controller code to control different animation states of LEDs in a costume. 
 
+Include Adafruit_BluefruitLE_nRF51 library
+https://github.com/adafruit/Adafruit_BluefruitLE_nRF51
+
+Need to have BluefruitConfig.h and packetParser.cpp from this library
+Adafruit_BluefruitLE_nRF51/examples/controller/BluefruitConfig.h
+Adafruit_BluefruitLE_nRF51/examples/controller/packetParser.cpp
+
 This code goes through four different animation states. 
 The description of the project and system overview is included below. Images and the description can also be found at: http://sophiavuw.wixsite.com/portfolio/fairy-lights-costume
 
